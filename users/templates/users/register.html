@@ -1,0 +1,15 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <div class="content-section">
+      <<form class="" method="post">
+        {%csrf _token%}
+          <fieldset class="form-group">
+            <legend class="mb-4 border-bottom">Join Today</legend>
+            {{form}}
+          </fieldset>
+          <div class=form-group">
+            
+          </div>
+      </form>
+    </div>
+{% endblock %}
